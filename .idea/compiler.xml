@@ -10,6 +10,7 @@
         <module name="member-service-consumer-80" />
         <module name="member-service-provider-10000" />
         <module name="commerce-center-common-api" />
+        <module name="commerce-eureka-server-9002" />
         <module name="commerce-eureka-server-9001" />
       </profile>
     </annotationProcessing>

@@ -1,9 +1,10 @@
 server:
   port: 9001
 
+#配置eureka-server
 eureka:
   instance:
-    hostname: localhost
+    hostname: eureka9001.com #服务实例名
   client:
     #配置不向注册中心注册自己
     register-with-eureka: false
@@ -13,9 +14,7 @@ eureka:
       #设置与eureka server 交互模块, 查询服务和注册服务都需要依赖这个地址
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #相互注册，这里应该注册到eureka server9002
-
-      #美金获取写在上面各个信息
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka9002.com:9002/eureka/
 #  server:
 #    #禁用自我保护模式
 #    enable-self-preservation: false

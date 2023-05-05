@@ -12,9 +12,9 @@
     <modules>
         <module>member-service-provider-10000</module>
         <module>member-service-consumer-80</module>
-        <module>common-api</module>
         <module>commerce-center-common-api</module>
         <module>commerce-eureka-server-9001</module>
+        <module>commerce-eureka-server-9002</module>
     </modules>
 
 <!--    <modules>-->
